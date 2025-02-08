@@ -12,7 +12,7 @@ const interactions = require("./scripts/interactions")
 const token = require('./config/token.json');
 const package = require('./package.json');
 const config = require("./config/config");
-const settings =  require("./config/support-settings");
+const settings = require("./config/support-settings");
 
 
 

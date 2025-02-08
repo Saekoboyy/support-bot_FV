@@ -1,7 +1,7 @@
 const config = {
 
     presence: "online", // options: online, idle, dnd, invisible
-    status: "Watching #support | learn more about me at https://github.com/Gideon-foxo/support-bot",
+    status: "*Shrug*",
 
 
 

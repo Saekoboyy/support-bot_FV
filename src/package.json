@@ -20,6 +20,8 @@
     "homepage": "https://github.com/Gideon-foxo/support-bot#readme",
     "dependencies": {
         "dbot-console-logger": "1.0.2",
-        "discord.js": "^14.13.0"
+        "discord.js": "^14.13.0",
+        "forever-monitor": "github:foreversd/forever-monitor",
+        "pm2": "^5.4.3"
     }
 }

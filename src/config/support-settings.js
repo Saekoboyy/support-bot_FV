@@ -4,10 +4,10 @@ const supportConfig = {
     // Embed for the help desk
     embed: {
         title: "Help Desk",
-        description: "Demo help desk. Need help? You came to the right place, to get started just use the select menu below!\n\nSupport can setup to add the user to a private thread or add a role to the user, or both!",
+        description: "Furry Vanguard help desk! If you think any FAQs should be added feel free to suggest them in #suggestions!",
         //thumbnail: "image URL for thumbnail in top right corner",
         //image: "image URL for big image at bottom",
-        footer: "This is the small text at the bottom of the embed, it does not support markdown."
+        footer: "Secret :3"
     },
 
 
@@ -15,78 +15,77 @@ const supportConfig = {
     support: {
         disableSupport: false, // Disables support
         createThread: true, // Creates a private thread. If you want to change how requestMessage and supportMessage work modify the strings in the support function in interactions.js
-        supportRole: "ID of role here", // Role given to the user if extra support is requested
+        supportRole: "1328588097184596000", // Role given to the user if extra support is requested
         requestMessage: "A support ticket has been made", // If create thread is enabled then the created thread will be automatically added to the end of the default message.
         supportMessage: "We will be with you shortly, in the meantime please ask you question in as much detail as you can!",
-        supportChannel: "Support Message Channel ID",
+        supportChannel: "1284702636309741598",
  
 
         selectMenuName: "Need help? Select a question!",
         supportOption: {
-            name: "My question is not answered",
-            description: "I need more support!",
-            emote: "❓"
+            name: "Open a ticket",
+            //description: "I need more support!",
+            //emote: "❓"
         },
 
 
-        loggingChannel: "ID of logging channel", // Channel for logging all questions and support status
-        notificationRole: "ID of staff role", // Role for staff
+        loggingChannel: "1328585908324405269", // Channel for logging all questions and support status
+        notificationRole: "1284159108223860776", // Role for staff
     },
 
 
     // Array of questions and answers for the help desk
     questions: [
         {
-            question: "What does this bot do?",
-            questionDescription: "How will it help users?",
-            emote: "🤖",
+            question: "How do I verify with Bloxlink?",
+            questionDescription: "How to get the Verified Roblox role!",
+            //emote: "🤖",
     
-            answer: "This bot helps users answer questions in an automated format! No more pointing users to a long faq they wont really read!!",
-            image: "https://cdn.discordapp.com/attachments/995986581460615178/1152729799769464863/Discord_ur4cd1FSFI.png",
+            answer: "Go to #intermission or #bot-commands, and run /verify to get started!",
             directSupport: false
         },
         {
-            question: "What does the direct support option do?",
+            question: "What do I do if a user is breaking the rules?",
             //questionDescription: "",
             //emote: "",
     
-            answer: "It adds a button to answer response that allows a user to directly request support without having to go back to the select menu and hit extra support needed.",
+            answer: "Gather evidence and report it with this button + you can select open ticket and it will do the same thing.",
             //image: "",
             directSupport: true
         },
         {
-            question: "I still need help with this bot, where do I go?",
+            question: "How do I report faction rule breaks?",
             //questionDescription: "",
             //emote: "",
     
-            answer: "You can either ask in our [support server](https://discord.gg/s4BX2qu6Hu) or create a new [pull request](https://github.com/Gideon-Foxo/support-bot/pulls) on our github page!",
+            answer: "These are classified, however to report faction rule breaks DM Leadership+",
             //image: "",
             directSupport: false
         },
         {
-            question: "How can I donate to this project?",
+            question: "How do I enlist in the faction?",
             //questionDescription: "",
             //emote: "",
     
-            answer: "You can either give me a [coffee](https://foxo.gay/donate) or donate on [github](https://github.com/sponsors/Gideon-Foxo)!",
+            answer: "You can enlist in #faction-requirements to see if you meet the requirements, then fill out the form provided by Appy and then it will be reviewed and accepted or denied. Good luck!",
             //image: "",
             directSupport: false
         },
         {
-            question: "How many questions can I set?",
+            question: "Are faction slots full?",
             //questionDescription: "",
             //emote: "",
     
-            answer: "You can set up to 24 questions, or 25 if you do disable the extra support option.",
+            answer: "No, as of now we have plenty of slots open, feel free to enlist today in #faction-requirements!",
             //image: "",
             directSupport: false
         },
         {
-            question: "Can I set custom emotes?",
+            question: "When was this last updated?",
             //questionDescription: "",
-            emote: "<a:RainbowHeart:688554129437622273>",
+            //emote: "",
     
-            answer: "Yes you can! put \ before an emote and then send it and copy and past the result, it should look something like `<a:RainbowHeart:688554129437622273>`",
+            answer: "This help desk was last updated on 1/14/2024.",
             //image: "",
             directSupport: false
         },
