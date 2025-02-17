@@ -37,11 +37,11 @@ const supportConfig = {
     // Array of questions and answers for the help desk
     questions: [
         {
-            question: "How do I verify with Bloxlink?",
-            questionDescription: "How to get the Verified Roblox role!",
-            //emote: "🤖",
+            question: "How do I get the "Verified Roblox" role?",
+            //questionDescription: "",
+            //emote: "",
     
-            answer: "Go to #intermission or #bot-commands, and run /verify to get started!",
+            answer: "If you do not already have the role, go to #intermission and follow the instructions there!",
             directSupport: false
         },
         {
@@ -58,7 +58,7 @@ const supportConfig = {
             //questionDescription: "",
             //emote: "",
     
-            answer: "These are classified, however to report faction rule breaks DM Leadership+",
+            answer: "These are classified, however to report faction rule breaks DM a Leadership member.",
             //image: "",
             directSupport: false
         },
@@ -85,7 +85,7 @@ const supportConfig = {
             //questionDescription: "",
             //emote: "",
     
-            answer: "This help desk was last updated on 1/14/2024.",
+            answer: "This help desk was last updated on <t:1739766600:D>.",
             //image: "",
             directSupport: false
         },
