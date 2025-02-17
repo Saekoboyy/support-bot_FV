@@ -37,7 +37,7 @@ const supportConfig = {
     // Array of questions and answers for the help desk
     questions: [
         {
-            question: "How do I get the "Verified Roblox" role?",
+            question: "How do I get the 'Verified Roblox' role?",
             //questionDescription: "",
             //emote: "",
     
