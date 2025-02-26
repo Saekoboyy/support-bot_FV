@@ -14,7 +14,7 @@ const supportConfig = {
     // The support settings
     support: {
         disableSupport: false, // Disables support
-        createThread: true, // Creates a private thread. If you want to change how requestMessage and supportMessage work modify the strings in the support function in interactions.js
+        createThread: false, // Creates a private thread. If you want to change how requestMessage and supportMessage work modify the strings in the support function in interactions.js
         supportRole: "1328588097184596000", // Role given to the user if extra support is requested
         requestMessage: "A support ticket has been made", // If create thread is enabled then the created thread will be automatically added to the end of the default message.
         supportMessage: "We will be with you shortly, in the meantime please ask you question in as much detail as you can!",
